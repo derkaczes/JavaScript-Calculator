@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Simply calculator">
+        <meta name="keywords" content="HTML,CSS,JavaScript,Math, Calculator">
+        <meta name="author" content="Derkaczes">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Calculator JavaScript</title>
+        <link href="https://fonts.googleapis.com/css?family=Calistoga&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="css/scripts.js" defer></script>
+    </head>
+
+    <body>
+        <div id="container">
+            <div id="calculator">
+                <div id="result">
+                    <div id="event">
+                        <p id="event-value"></p>
+                    </div>
+                    <div id="score">
+                        <p id="score-value"></p>
+                    </div>
+                </div>
+                <div id="buttons">
+                    <button type="button" class="operator btn btn-warning" id="backspace">CE</button>
+                    <button type="button" class="operator btn btn-warning" id="clear">C</button>
+                    <button type="button" class="operator btn btn-warning" id="delete">del</button>
+                    <button type="button" class="operator btn btn-info" id="/">&#247;</button>
+                    <button type="button" class="number btn btn-light" id="7">7</button>
+                    <button type="button" class="number btn btn-light" id="8">8</button>
+                    <button type="button" class="number btn btn-light" id="9">9</button>
+                    <button type="button" class="operator btn btn-info" id="*">&times;</button>
+                    <button type="button" class="number btn btn-light" id="4">4</button>
+                    <button type="button" class="number btn btn-light" id="5">5</button>
+                    <button type="button" class="number btn btn-light" id="6">6</button>
+                    <button type="button" class="operator btn btn-info" id="-">-</button>
+                    <button type="button" class="number btn btn-light" id="1">1</button>
+                    <button type="button" class="number btn btn-light" id="2">2</button>
+                    <button type="button" class="number btn btn-light" id="3">3</button>
+                    <button type="button" class="operator btn btn-info" id="+">+</button>
+                    <button type="button" class="operator btn btn-info" id="+-">&#xb1;</button>
+                    <button type="button" class="number btn btn-light" id="0">0</button>
+                    <button type="button" class="decimal function btn btn-secondary" id=".">.</button>
+                    <button type="button" class="number btn btn-light" id="=">=</button>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
